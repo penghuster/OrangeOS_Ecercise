@@ -538,26 +538,26 @@ LOAD fs/main.o
 .stab.indexstr
  *(.stab.indexstr)
 
-.comment        0x0000000000000000       0x34
+.comment        0x0000000000000000       0x35
  *(.comment)
- .comment       0x0000000000000000       0x34 kernel/start.o
-                                         0x35 (size before relaxing)
- .comment       0x0000000000000034       0x35 kernel/main.o
- .comment       0x0000000000000034       0x35 kernel/clock.o
- .comment       0x0000000000000034       0x35 kernel/keyboard.o
- .comment       0x0000000000000034       0x35 kernel/tty.o
- .comment       0x0000000000000034       0x35 kernel/console.o
- .comment       0x0000000000000034       0x35 kernel/i8259.o
- .comment       0x0000000000000034       0x35 kernel/global.o
- .comment       0x0000000000000034       0x35 kernel/protect.o
- .comment       0x0000000000000034       0x35 kernel/proc.o
- .comment       0x0000000000000034       0x35 kernel/systask.o
- .comment       0x0000000000000034       0x35 kernel/hd.o
- .comment       0x0000000000000034       0x35 kernel/printf.o
- .comment       0x0000000000000034       0x35 kernel/vsprintf.o
- .comment       0x0000000000000034       0x35 lib/klib.o
- .comment       0x0000000000000034       0x35 lib/misc.o
- .comment       0x0000000000000034       0x35 fs/main.o
+ .comment       0x0000000000000000       0x35 kernel/start.o
+                                         0x36 (size before relaxing)
+ .comment       0x0000000000000035       0x36 kernel/main.o
+ .comment       0x0000000000000035       0x36 kernel/clock.o
+ .comment       0x0000000000000035       0x36 kernel/keyboard.o
+ .comment       0x0000000000000035       0x36 kernel/tty.o
+ .comment       0x0000000000000035       0x36 kernel/console.o
+ .comment       0x0000000000000035       0x36 kernel/i8259.o
+ .comment       0x0000000000000035       0x36 kernel/global.o
+ .comment       0x0000000000000035       0x36 kernel/protect.o
+ .comment       0x0000000000000035       0x36 kernel/proc.o
+ .comment       0x0000000000000035       0x36 kernel/systask.o
+ .comment       0x0000000000000035       0x36 kernel/hd.o
+ .comment       0x0000000000000035       0x36 kernel/printf.o
+ .comment       0x0000000000000035       0x36 kernel/vsprintf.o
+ .comment       0x0000000000000035       0x36 lib/klib.o
+ .comment       0x0000000000000035       0x36 lib/misc.o
+ .comment       0x0000000000000035       0x36 fs/main.o
 
 .debug
  *(.debug)
